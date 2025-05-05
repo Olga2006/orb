@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Contact - Personal Bootstrap Template</title>
+    <title>Contact</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -38,13 +38,6 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
-    <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Mar 05 2025 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
   </head>
 
   <body class="contact-page">
@@ -60,37 +53,18 @@
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <!--  <li><a href="services.html">Services</a></li> -->
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="resume.html">CV</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <!--             <li class="dropdown">
-              <a href="#"
-                ><span>Dropdown</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Dropdown</span>
-                    <i class="bi bi-chevron-down toggle-dropdown"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li> -->
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+              <a href="#"><span>Langue</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="index.html">Français</a></li>
+                <li><a href="index_en.html">Anglais</a></li>
+              </ul>
+            </li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -116,7 +90,7 @@
         <nav class="breadcrumbs">
           <div class="container">
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Accueil</a></li>
               <li class="current">Contact</li>
             </ol>
           </div>
@@ -136,7 +110,7 @@
               >
                 <i class="icon bi bi-geo-alt flex-shrink-0"></i>
                 <div>
-                  <h3>Address</h3>
+                  <h3>Adresse</h3>
                   <p>Bourgogne-Franche-Comté</p>
                   <p>Auvergne-Rhône-Alpes, France</p>
                 </div>
@@ -152,7 +126,7 @@
               >
                 <i class="icon bi bi-telephone flex-shrink-0"></i>
                 <div>
-                  <h3>Call Me</h3>
+                  <h3>Appelez-moi</h3>
                   <p>+33 63013 1343</p>
                 </div>
               </div>
@@ -167,7 +141,7 @@
               >
                 <i class="icon bi bi-envelope flex-shrink-0"></i>
                 <div>
-                  <h3>Email Me</h3>
+                  <h3>Envoyez-moi un e-mail</h3>
                   <p>olga20reba@gmail.com</p>
                 </div>
               </div>
@@ -182,7 +156,7 @@
               >
                 <i class="icon bi bi-share flex-shrink-0"></i>
                 <div>
-                  <h3>Social Profiles</h3>
+                  <h3>Profils sociaux</h3>
                   <div class="social-links">
                     <a
                       href="https://www.linkedin.com/in/olga-reshetnik-ep-bagnard-480773113/"
@@ -201,13 +175,6 @@
             <!-- End Info Item -->
           </div>
 
-          <!--           <form
-            action="forms/contact.php"
-            method="post"
-            class="php-email-form"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          > -->
           <form
             action="https://formspree.io/f/manevrpl"
             method="POST"
@@ -221,7 +188,7 @@
                   type="text"
                   name="name"
                   class="form-control"
-                  placeholder="Your Name"
+                  placeholder="Votre nom"
                   required=""
                 />
               </div>
@@ -231,7 +198,7 @@
                   type="email"
                   class="form-control"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder="Votre e-mail"
                   required=""
                 />
               </div>
@@ -241,7 +208,7 @@
                   type="text"
                   class="form-control"
                   name="subject"
-                  placeholder="Subject"
+                  placeholder="Sujette"
                   required=""
                 />
               </div>
@@ -257,13 +224,13 @@
               </div>
 
               <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
+                <div class="loading">Chargement</div>
                 <div class="error-message"></div>
                 <div class="sent-message">
-                  Your message has been sent. Thank you!
+                  Votre message a été envoyé. Merci!
                 </div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Envoyer</button>
               </div>
             </div>
           </form>
@@ -302,10 +269,6 @@
             <span>All Rights Reserved</span>
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
             Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
