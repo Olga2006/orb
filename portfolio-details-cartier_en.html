@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Détails du portfolio</title>
+    <title>Portfolio Details</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -46,23 +46,21 @@
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
           <h1 class="sitename">ORB</h1>
         </a>
 
-        <nav id="navmenu" class="navmenu">
+        <nav class="navmenu" id="navmenu">
           <ul>
-            <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="about.html">À propos</a></li>
-            <li><a href="resume.html">CV</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="index_en.html">Home</a></li>
+            <li><a href="about_en.html">About</a></li>
+            <li><a href="resume_en.html">Resume</a></li>
+            <li><a href="portfolio_en.html">Portfolio</a></li>
+            <li><a href="contact_en.html">Contact</a></li>
             <li class="dropdown">
-              <a href="#"><span>Langue</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <a href="#"><span>Language</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
               <ul>
-                <li><a href="index.html">Français</a></li>
-                <li><a href="index_en.html">Anglais</a></li>
+                <li><a href="index.html">French</a></li>
+                <li><a href="index_en.html">English</a></li>
               </ul>
             </li>
           </ul>
@@ -78,10 +76,9 @@
           <div class="container">
             <div class="row d-flex justify-content-center text-center">
               <div class="col-lg-8">
-                <h1>ATRIUM</h1>
+                <h1>CARTIER</h1>
                 <p class="mb-0">
-                  Un extranet conçu pour les coopératives agricoles et leurs
-                  adhérents.
+                  A web application dedicated to the centralized and secure management of business partner data, designed with a microservices architecture using Java Spring Boot and Angular.
                 </p>
               </div>
             </div>
@@ -90,14 +87,13 @@
         <nav class="breadcrumbs">
           <div class="container">
             <ol>
-              <li><a href="index.html">Accueil</a></li>
-              <li class="current">Détails du portfolio</li>
+              <li><a href="index_en.html">Home</a></li>
+              <li class="current">Portfolio Details</li>
             </ol>
           </div>
         </nav>
       </div>
       <!-- End Page Title -->
-
       <!-- Portfolio Details Section -->
       <section id="portfolio-details" class="portfolio-details section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -122,13 +118,13 @@
 
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/atol/a1.jpg" alt="" />
+                    <img src="assets/img/portfolio/carrefour/c1.jpg" alt="" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/atol/a2.jpg" alt="" />
+                    <img src="assets/img/portfolio/carrefour/c2.jpg" alt="" />
                   </div>
                   <div class="swiper-slide">
-                    <img src="assets/img/portfolio/atol/a3.jpg" alt="" />
+                    <img src="assets/img/portfolio/carrefour/c3.jpg" alt="" />
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -136,56 +132,30 @@
             </div>
 
             <div class="col-lg-4">
-              <div
-                class="portfolio-info"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <h3>Informations sur le projet</h3>
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Project Information</h3>
                 <ul>
-                  <li><strong>Catégorie</strong>: Développement full-stack</li>
-                  <li><strong>Client</strong>: Atol CD</li>
-                  <li><strong>Date du projet</strong>: 01 Septembre, 2019</li>
+                  <li><strong>Category</strong>: Full Stack Development</li>
+                  <li><strong>Client</strong>: Carrefour</li>
+                  <li><strong>Project Date</strong>: January 1, 2022</li>
+                  <li><strong>Not publicly accessible</strong></li>
                   <li>
-                    <strong>Non accessible au public</strong>
-                    <a
-                      href="https://www.atolcd.com/cas-dutilisation-et-retours-dexperience/atrium-cultivons-notre-extranet"
-                      >atolcd</a
-                    >
-                  </li>
-                  <li>
-                    <strong>Environnement technique</strong>:
-                    <div>Java 8 11/Maven/Jooq/PostgreSQL</div>
-                    <div>VueJs/ExtJs/Git</div>
+                    <strong>Technical Stack</strong>:
+                    <div>Java 11 / Spring Boot / Hibernate / Maven / PostgreSQL</div>
+                    <div>Cloud Functions / Kafka</div>
+                    <div>Angular 12 / RxJS / PrimeNG / Bootstrap</div>
+                    <div>Cypress / Gatling / Jenkins / GitLab</div>
                   </li>
                 </ul>
               </div>
-              <div
-                class="portfolio-description"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <h2>
-                  Un extranet métier développé pour les coopératives agricoles
-                  et leurs adhérents (agriculteurs, techniciens, salariés et
-                  prestataires).
-                </h2>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>Business Partner Data Management</h2>
                 <p>
-                  Une plateforme centralisée permettant l’échange
-                  d’informations, la gestion des services agricoles et l’accès
-                  aux outils professionnels. Fonctionnalités clés : 
-                  <div>Gestion des utilisateurs et des accès : attribution fine des droits
-                  selon les rôles et profils métiers, avec authentification
-                  sécurisée. </div>
-                  <div>Consultation et mise à jour des données agricoles : 
-                  accès en temps réel aux informations techniques,
-                  parcelles, interventions, historiques, etc. </div>
-                  <div>Échange documentaire : dépôt, partage et téléchargement de rapports,
-                  documents réglementaires et fichiers techniques.</div>
-                  <div>Optimisation des processus métiers : automatisation de
-                  certaines tâches (notifications, workflows de validation),
-                  centralisation des outils de gestion et gain de productivité
-                  pour les équipes terrain et les administrateurs.</div>
+                  This application enables centralized, secure, and structured management of Carrefour's business partners,
+                  aiming to streamline their integration into internal systems. It supports the creation, editing, and validation
+                  of partner information while ensuring consistency and compliance.
+                  Integrated validation workflows, automated checks, and a full change history ensure traceability and
+                  alignment with Carrefour's data standards.
                 </p>
               </div>
             </div>
@@ -193,19 +163,17 @@
         </div>
       </section>
       <!-- /Portfolio Details Section -->
+
     </main>
 
     <footer id="footer" class="footer dark-background">
       <div class="container">
         <h3 class="sitename">ORB</h3>
         <p>
-          Bienvenue sur mon site ! Si vous êtes à la recherche d’un développeur
-          web freelance, vous êtes au bon endroit. Je suis Olga, développeuse
-          fullstack freelance basée en Saône-et-Loire, avec une expertise
-          reconnue dans la création de sites web et d’applications web
-          dynamiques sur mesure. Depuis 2018, je mets mon savoir-faire au
-          service de mes clients pour leur offrir des solutions digitales
-          parfaitement adaptées à leurs besoins spécifiques
+          Welcome to my website! If you’re looking for a freelance web developer, you’re in the right place.
+          I’m Olga, a fullstack freelance developer based in Saône-et-Loire, with proven expertise in building
+          custom dynamic websites and web applications. Since 2018, I’ve been using my skills to provide digital
+          solutions perfectly tailored to my clients’ specific needs.
         </p>
 
         <div class="social-links d-flex justify-content-center">
